@@ -45,10 +45,10 @@
 ## Git Environment Setup:
 
 1. Setting UserName:
-- `git config --global user.name "gunjan2012"`
+- `git config --global user.name "john98"`
 
 2. Setting email id:
-- `git config --global user.email "gunjan.d@simformsolutions.com"`
+- `git config --global user.email "john@example.com"`
 
 3. Listing Git settings:
 - `git config --list`
@@ -79,8 +79,10 @@
 `git mv old_name new_name`
 
 ## Ignoring files:
-- Ignoring the files or folders that are not much important we use `.gitignore` file.<br/>
-- In `.gitignore` we add that file name or folder name that we have to ignore.
+- `.gitignore` file is used for ignoring files that we don't want to share. <br/>
+- For example a software that generates the logs stored in log file that are not important so in that case we ignore that file, another is we don't push `passwords`,`private-keys` to git repo.
+- Also we don't push `node_modules` in our project.
+- Git will not track files and folders specified in `.gitignore` . However, the `.gitignore` file itself IS tracked by Git.
 
 ## Ignoring tracked files or folders:
 `git rm --chached file_name ` : started ignoring file. <br/>
