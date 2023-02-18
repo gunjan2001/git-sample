@@ -36,10 +36,10 @@
 
 - For GNU/Linux.
 
-  [ubuntu ~]$ sudo apt-get install git-core </br>
-  [sudo] password for ubuntu:
+  sudo apt-get install git-core </br>
+  password for ubuntu:
 
-  [ubuntu ~]$ git --version</br>
+  git --version</br>
   git version 1.8.1.2
 
 ## Git Environment Setup:
